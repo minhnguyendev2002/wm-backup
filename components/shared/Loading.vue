@@ -6,10 +6,10 @@
                 <!-- <i class=" animate-[spining_1s_linear_infinite] text-[8rem] leading-[10rem] fas fa-circle-notch" /> -->
             </div>
             <div class="flex justify-center flex-col items-center mt-20">
-                <h1 class="text-white text-[40px] sm:text-[70px] font-bold uppercase tracking-[10px]">
+                <h1 class="text-white text-[40px] sm:text-[70px] font-bold uppercase  tracking-[10px]">
                     Wealth
                 </h1>
-                <span class="text-white text-[20px] sm:text-[40px] mt-5 font-medium uppercase tracking-[10px]">Managament</span>
+                <span class="text-white text-[20px] sm:text-[40px] mt-5 font-medium uppercase  tracking-[10px]">Managament</span>
             </div>
         </div>
     </div>
@@ -22,7 +22,7 @@
         data() {
             return {
                 percent: 0,
-                show: true,
+                show: false,
                 canSuccess: true,
                 color: '#3EC08D',
                 failedColor: '#F56C6C',
@@ -88,7 +88,7 @@
                             this.percent = 0;
                         }, 200);
                     });
-                }, 1000);
+                }, 500);
                 return this;
             },
 
@@ -99,3 +99,18 @@
         },
     };
 </script>
+
+<style>
+    .nuxt-progress {
+        position: fixed;
+        top: 0px;
+        left: 0px;
+        right: 0px;
+        height: 2px;
+        width: 0%;
+        transition: width 0.2s, opacity 0.4s;
+        opacity: 1;
+        background-color: #efc14e;
+        z-index: 999999;
+    }
+</style>
