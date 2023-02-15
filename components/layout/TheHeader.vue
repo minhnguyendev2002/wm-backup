@@ -1,5 +1,5 @@
 <template>
-    <div class="2xl:max-w-[1500px] mx-auto px-3 bg-white py-4 px-4 md:px-6 flex justify-between items-center">
+    <div class="2xl:max-w-[1500px] mx-auto bg-white lg:py-1 px-3 md:px-6 flex justify-between items-center">
         <div class="flex items-center w-full">
             <div class="max-w-[300px]">
                 <img class="w-full h-full object-cover" src="/images/logo.jpg" alt="logo">
@@ -35,12 +35,11 @@
             </div>
             <div class="ml-auto flex gap-3">
                 <div class="gap-3 hidden sm:flex">
-                    <a-button type="primary" class="!bg-prim-100">
-                        Đăng nhập
-                    </a-button>
-                    <a-button type="primary" class="!bg-prim-100">
-                        Đăng ký
-                    </a-button>
+                    <a href="https://www.rosyvncrm.com/">
+                        <a-button type="primary" class="!bg-prim-100">
+                            Đăng ký ngay
+                        </a-button>
+                    </a>
                 </div>
                 <a-button
                     class="!block xl:!hidden !bg-prim-100"
@@ -87,12 +86,11 @@
                 </template>
             </a-menu>
             <div class="gap-3 sm:hidden flex justify-between mt-10">
-                <a-button type="primary" class="!bg-prim-100 !w-full">
-                    Đăng nhập
-                </a-button>
-                <a-button type="primary" class="!bg-prim-100 !w-full">
-                    Đăng ký
-                </a-button>
+                <a class="block w-full text-center" href="https://www.rosyvncrm.com/">
+                    <a-button type="primary" class="!bg-prim-100">
+                        Đăng ký ngay
+                    </a-button>
+                </a>
             </div>
         </a-drawer>
     </div>

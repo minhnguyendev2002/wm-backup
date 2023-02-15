@@ -9,7 +9,9 @@
 
             <TheFooter />
         </div>
-        <!-- <ScrollToTop :scroll="isScroll" /> -->
+        <ScrollToTop :scroll="isScroll" />
+        <div id="fb-root" />
+        <div id="fb-customer-chat" class="fb-customerchat" />
     </div>
 </template>
 
@@ -17,13 +19,13 @@
     // import { mapState } from 'vuex';
     import TheHeader from '@/components/layout/TheHeader.vue';
     import TheFooter from '@/components/layout/TheFooter.vue';
-    // import ScrollToTop from '../components/shared/ScrollToTop.vue';
+    import ScrollToTop from '@/components/shared/ScrollToTop.vue';
 
     export default {
         components: {
             TheHeader,
             TheFooter,
-            // ScrollToTop,
+            ScrollToTop,
         },
 
         // async fetch() {

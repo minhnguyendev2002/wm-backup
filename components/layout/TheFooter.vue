@@ -92,14 +92,9 @@
                                 Thời gian
                             </span>
                             <div>
-                                <ul class="flex flex-col gap-3">
-                                    <li class="font-medium text-lg text-white/70">
-                                        Thứ 2 - 6 : 7:00AM - 6:00PM
-                                    </li>
-                                    <li class="font-medium text-lg text-white/70">
-                                        Thứ 7: 9:00AM - 5:00PM
-                                    </li>
-                                </ul>
+                                <div class="font-medium text-lg text-white/70">
+                                    Chăm sóc khách hàng 24/7
+                                </div>
                             </div>
                         </div>
                     </div>

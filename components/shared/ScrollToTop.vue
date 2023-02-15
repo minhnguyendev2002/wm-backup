@@ -1,0 +1,31 @@
+<template>
+    <button
+        aria-label="scroll top"
+        :class="scroll ? 'top-[calc(100vh-10%)]' : '-top-[100px]'"
+        class="fixed z-50 w-14 h-14 rounded-full bg-prim-100 text-white hover:bg-prim-100 transition-all duration-700 right-5"
+        @click="scrollToTop"
+    >
+        <span class="fas fa-long-arrow-up"><i class="fas fa-arrow-up" /></span>
+    </button>
+</template>
+
+<script>
+    export default {
+        props: {
+            scroll: {
+                type: Boolean,
+                default: false,
+            },
+        },
+        data() {
+            return {
+                isScroll: false,
+            };
+        },
+        methods: {
+            scrollToTop() {
+                window.scrollTo({ top: 0, behavior: 'smooth' });
+            },
+        },
+    };
+</script>
