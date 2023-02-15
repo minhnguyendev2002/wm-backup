@@ -49,7 +49,6 @@ export default {
         '@/plugins/filters',
         '@/plugins/global-components',
         '@/plugins/aos.js',
-        { src: '@/plugins/vue-fb-customer-chat', ssr: false },
     ],
 
     robots: [

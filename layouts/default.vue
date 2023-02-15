@@ -10,8 +10,6 @@
             <TheFooter />
         </div>
         <ScrollToTop :scroll="isScroll" />
-        <div id="fb-root" />
-        <div id="fb-customer-chat" class="fb-customerchat" />
     </div>
 </template>
 

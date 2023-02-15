@@ -24,7 +24,6 @@
     "nuxt": "^2.15.7",
     "vue-click-outside": "^1.1.0",
     "vue-countup-v2": "^4.0.0",
-    "vue-fb-customer-chat": "^0.2.2",
     "vue-slick-carousel": "^1.0.6",
     "vue-tradingview-widgets": "^1.2.4"
   },
