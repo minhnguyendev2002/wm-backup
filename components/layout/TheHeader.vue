@@ -120,17 +120,26 @@
                     ],
                 }, {
                     label: 'Công cụ thị trường',
-                    key: '/cong-cu-thi-truong',
+                    key: '/tools/real-time-chart',
                     classIcon: 'isax isax-user',
-                    childrens: [],
+                    childrens: [
+                        {
+                            label: 'Biểu đồ thị trường thời gian thực',
+                            key: '/tools/real-time-chart',
+                        },
+                        {
+                            label: 'Forex Map',
+                            key: '/tools/forex-heat-map',
+                        },
+                    ],
                 }, {
                     label: 'Giới thiệu về nền tảng',
-                    key: '/gioi-thieu',
+                    key: '/about-us',
                     classIcon: 'isax isax-shopping-cart',
                     childrens: [
                         {
                             label: 'Về chúng tôi',
-                            key: '/gioi-thieu/ve-chung-toi',
+                            key: '/about-us',
                         },
                     ],
                 }];

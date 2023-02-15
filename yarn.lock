@@ -10791,11 +10791,6 @@ vue-eslint-parser@^7.1.1, vue-eslint-parser@^7.10.0:
     lodash "^4.17.21"
     semver "^6.3.0"
 
-vue-fb-customer-chat@^0.2.2:
-  version "0.2.2"
-  resolved "https://registry.yarnpkg.com/vue-fb-customer-chat/-/vue-fb-customer-chat-0.2.2.tgz#6b11dc695b359191e30e59a6656e0fd975edad74"
-  integrity sha512-xdM3D8WYVpV9Bj3Q4ikjt8PywRN2LhfJBiOlmtwiC3dmxIGm/zVk749B0m6YlaC4yLaVU123t8cc3NqTjWUj/Q==
-
 vue-hot-reload-api@^2.3.0:
   version "2.3.4"
   resolved "https://registry.yarnpkg.com/vue-hot-reload-api/-/vue-hot-reload-api-2.3.4.tgz#532955cc1eb208a3d990b3a9f9a70574657e08f2"
@@ -10882,6 +10877,11 @@ vue-template-es2015-compiler@^1.9.0:
   version "1.9.1"
   resolved "https://registry.yarnpkg.com/vue-template-es2015-compiler/-/vue-template-es2015-compiler-1.9.1.tgz#1ee3bc9a16ecbf5118be334bb15f9c46f82f5825"
   integrity sha512-4gDntzrifFnCEvyoO8PqyJDmguXgVPxKiIxrBKjIowvL9l+N66196+72XVYR8BBf1Uv1Fgt3bGevJ+sEmxfZzw==
+
+vue-trading-view@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/vue-trading-view/-/vue-trading-view-1.0.1.tgz#05309a9cfa70c296b1c24251a6e29595a8a3579b"
+  integrity sha512-CNTrPt/yvcpu724l36YGlrwczcKEt9hwKyw9cEZ8PRcqR0jwNBWZkk6bJVCgACmXkLqJZjsPUagaYfQHvtsjeQ==
 
 vue-tradingview-widgets@^1.2.4:
   version "1.2.4"
