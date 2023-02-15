@@ -1,6 +1,6 @@
 <template>
     <div class="w-screen lg:px-10 !h-[calc(100vh-100px)]">
-        <ForexMap />
+        <ForexMap ref="ForexMap" />
     </div>
 </template>
 
@@ -11,6 +11,11 @@
         layout: 'tool',
         components: {
             ForexMap,
+        },
+        mounted() {
+            this.$nextTick(() => {
+                this.$forceUpdate();
+            });
         },
     };
 </script>
