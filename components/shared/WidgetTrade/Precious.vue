@@ -5,7 +5,7 @@
 </template>
 
   <script>
-    const SCRIPT_ID = 'tradingview-widget-script';
+    const SCRIPT_ID = 'tradingview-widget-script-precious';
     const CONTAINER_ID = 'tradingview-widget-container';
 
     export default {

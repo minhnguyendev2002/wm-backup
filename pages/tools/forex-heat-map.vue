@@ -12,10 +12,10 @@
         components: {
             ForexMap,
         },
-        mounted() {
-            this.$nextTick(() => {
-                this.$forceUpdate();
-            });
+        head() {
+            return {
+                title: 'Bản đồ nhiệt',
+            };
         },
     };
 </script>

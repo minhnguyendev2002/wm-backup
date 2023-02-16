@@ -33,5 +33,10 @@
 
             };
         },
+        head() {
+            return {
+                title: 'Biểu đồ thời gian thực',
+            };
+        },
     };
 </script>

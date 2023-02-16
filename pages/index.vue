@@ -17,16 +17,18 @@
                                 <span class="text-xl font-semibold text-second-100">Đội ngũ chuyên gia tư vấn chuyên nghiệp</span>
                             </div>
                             <p class="text-lg">
-                                Wealth Managament là một tổ chức dịch vụ tài chính quốc tế được thành lập vào năm 2008 và có trụ sở chính tại
-                                Singapore. Nó chủ yếu hoạt động các dịch vụ tài chính cá nhân, dịch vụ ngân hàng tư nhân, dịch vụ ngân hàng
-                                thương mại và doanh nghiệp, dịch vụ ngân hàng đầu tư, tài chính doanh nghiệp và thị trường vốn. Kinh doanh,
-                                dịch vụ vốn ngoại hối, dịch vụ môi giới tương lai, quản lý tài sản, quản lý vốn đầu tư mạo hiểm, bảo hiểm và
-                                dịch vụ môi giới chứng khoán.
+                                Wealth Management là công ty tư vấn, đầu tư và quản lý tài chính cá nhân chuyên nghiệp hoạt động hàng đầu tại
+                                Châu Á và được thành lập vào năm 2008.  và có trụ sở chính tại Singapore. Nó chủ yếu hoạt động các dịch vụ tài
+                                chính cá nhân, dịch vụ ngân hàng tư nhân, dịch vụ ngân hàng thương mại và doanh nghiệp, dịch vụ ngân hàng đầu
+                                tư, tài chính doanh nghiệp và thị trường vốn. Kinh doanh, dịch vụ vốn ngoại hối, dịch vụ môi giới tương lai,
+                                quản lý tài sản, quản lý vốn đầu tư mạo hiểm, bảo hiểm và dịch vụ môi giới chứng khoán.
+                                Với triết lý: <strong>“Đầu tư vững vàng, Thảnh thơi vui sống“</strong> Đội ngũ đã thành công trong việc giúp khách hàng,đối
+                                tác tích lũy, gia tăng tài sản theo thời gian.
                             </p>
                         </div>
                     </div>
                     <nuxt-link
-                        to="/"
+                        to="/about-us"
                         class="!bg-[#f4f4fa] w-64 justify-center mt-10 !text-[#0c4ea4] font-bold py-5 px-8 flex items-center relative hover:!bg-[#0c4ea4] duration-300 hover:!text-white"
                     >
                         <i class="fas fa-minus mr-3 text-lg" /> <span>Xem thêm</span>
@@ -89,37 +91,37 @@
             </div>
         </div>
         <div class="py-20 relative bg-[url('/images/backgrounds/trade.png')] bg-cover bg-no-repeat bg-center">
-            <div v-if="widgetActive === 'forex'" id="forex" class="container">
+            <div v-show="widgetActive === 'forex'" id="forex" class="container">
                 <h2 class="text-center text-3xl sm:text-[40px] sm:leading-[55px] font-bold text-second-100 mb-5">
                     Giao dịch Forex
                 </h2>
                 <ForexTrade />
             </div>
-            <div v-if="widgetActive === 'indices'" id="indices" class="container">
+            <div v-show="widgetActive === 'indices'" id="indices" class="container">
                 <h2 class="text-center text-3xl sm:text-[40px] sm:leading-[55px] font-bold text-second-100 mb-5">
                     Chỉ số quốc tế
                 </h2>
                 <IndicesTrade />
             </div>
-            <div v-if="widgetActive === 'stocks'" id="stocks" class="container">
+            <div v-show="widgetActive === 'stocks'" id="stocks" class="container">
                 <h2 class="text-center text-3xl sm:text-[40px] sm:leading-[55px] font-bold text-second-100 mb-5">
                     Cổ phiếu
                 </h2>
                 <StocksTrade />
             </div>
-            <div v-if="widgetActive === 'bitcoin'" id="bitcoin" class="container">
+            <div v-show="widgetActive === 'bitcoin'" id="bitcoin" class="container">
                 <h2 class="text-center text-3xl sm:text-[40px] sm:leading-[55px] font-bold text-second-100 mb-5">
                     Tiền tệ kỹ thuật số
                 </h2>
                 <BitcoinTrade />
             </div>
-            <div v-if="widgetActive === 'futures'" id="futures" class="container">
+            <div v-show="widgetActive === 'futures'" id="futures" class="container">
                 <h2 class="text-center text-3xl sm:text-[40px] sm:leading-[55px] font-bold text-second-100 mb-5">
                     Hợp đồng tương lai quốc tế
                 </h2>
                 <FuturesTrade />
             </div>
-            <div v-if="widgetActive === 'precius'" id="precius" class="container">
+            <div v-show="widgetActive === 'precius'" id="precius" class="container">
                 <h2 class="text-center text-3xl sm:text-[40px] sm:leading-[55px] font-bold text-second-100 mb-5">
                     Kim loại quý
                 </h2>
@@ -142,9 +144,9 @@
                         <div
                             v-for="work in workSpaces"
                             :key="work.id"
-                            class="flex flex-wrap w-full justify-between px-16 gap-5 py-5 items-center bg-white border-b-2 border-solid border-gray-20 last:border-b-0"
+                            class="flex flex-wrap w-full justify-between px-5 sm:px-16 gap-5 py-5 items-center bg-white border-b-2 border-solid border-gray-20 last:border-b-0"
                         >
-                            <div class="flex items-center gap-4 w-full xl:w-auto">
+                            <div class="flex items-center gap-4 xl:w-auto xl:min-w-[220px]">
                                 <img
                                     class="w-[60px] h-[60px] object-cover rounded-full border-2 border-solid border-prim-100"
                                     :src="work.avatar"
@@ -154,7 +156,7 @@
                                     {{ work.name }}
                                 </h2>
                             </div>
-                            <div class="text-center">
+                            <div class="text-center xl:min-w-[180px]">
                                 <span class="text-xl">Trưởng nhóm</span>
                                 <h2 class="text-2xl">
                                     {{ work.leader }}
@@ -203,8 +205,13 @@
                     </span>
                 </div>
                 <div class="col-span-12 xl:col-span-4">
-                    <div class="text-center flex items-center justify-center gap-3">
-                        <CountUp :value="20000000000" class="text-[50px] lg:text-[65px] xl:text-[50px] font-bold" />
+                    <div class="hidden text-center sm:flex items-center justify-center gap-3">
+                        <CountUp :value="2000000000" class="text-[50px] lg:text-[65px] xl:text-[50px] font-bold" />
+                        <span><i class="fas fa-plus text-3xl ml-2" /></span>
+                    </div>
+                    <div class="text-center flex sm:hidden items-center justify-center gap-3">
+                        <CountUp :value="2" class="text-[50px] lg:text-[65px] xl:text-[50px] font-bold" />
+                        <span class="text-[50px] lg:text-[65px] xl:text-[50px] font-bold">B USD</span>
                         <span><i class="fas fa-plus text-3xl ml-2" /></span>
                     </div>
                     <span class="mt-10 mx-auto block text-center text-2xl text-prim-100 font-semibold">

@@ -35,7 +35,12 @@
             </div>
             <div class="ml-auto flex gap-3">
                 <div class="gap-3 hidden sm:flex">
-                    <a href="https://www.rosyvncrm.com/">
+                    <a href="https://www.rosyvncrm.com/pc/user/login">
+                        <a-button type="primary" class="!bg-prim-100">
+                            Đăng nhập
+                        </a-button>
+                    </a>
+                    <a href="https://www.rosyvncrm.com/pc/user/regist">
                         <a-button type="primary" class="!bg-prim-100">
                             Đăng ký ngay
                         </a-button>
@@ -86,7 +91,12 @@
                 </template>
             </a-menu>
             <div class="gap-3 sm:hidden flex justify-between mt-10">
-                <a class="block w-full text-center" href="https://www.rosyvncrm.com/">
+                <a class="block w-full text-center" href="https://www.rosyvncrm.com/pc/user/login">
+                    <a-button type="primary" class="!bg-prim-100">
+                        Đăng nhập
+                    </a-button>
+                </a>
+                <a class="block w-full text-center" href="https://www.rosyvncrm.com/pc/user/regist">
                     <a-button type="primary" class="!bg-prim-100">
                         Đăng ký ngay
                     </a-button>

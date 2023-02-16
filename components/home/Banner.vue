@@ -12,7 +12,7 @@
                 <div v-for="banner in dataCarousel" :key="banner._id" class="">
                     <div class="relative w-full h-full py-16 sm:pt-[120px] sm:pb-[100px]">
                         <div
-                            :style="{ backgroundImage: `url(${banner.thumbnail || '/images/default-banner.jpg'})` }"
+                            :style="{ backgroundImage: `url(${banner.thumbnail || '/images/banners/default-banner.jpg'})` }"
                             class="animate-[zoom-up_3s_linear_1s_forwards]
                             absolute top-0 z-[0] w-full h-full after:absolute after:content-[''] after:top-0 after:left-0 after:w-full after:h-full after:opacity-40 after:bg-[#0c4ea4] bg-cover bg-no-repeat bg-center"
                         />
@@ -28,7 +28,7 @@
                                         </h2>
 
                                         <a
-                                            href="https://www.rosyvncrm.com/"
+                                            href="https://www.rosyvncrm.com/pc/user/regist"
                                             aria-hidden="false"
                                             class="!bg-[#f4f4fa] ml-auto mr-auto lg:mr-0 lg:ml-auto mt-auto z-[1] w-64 justify-center !text-[#0c4ea4] font-bold py-5 px-8 flex items-center relative hover:!bg-[#0c4ea4] duration-300 hover:!text-white
                                                     animate-[fade-top_.7s_linear_1.5s_forwards] opacity-0 translate-y-[100%]"

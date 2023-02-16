@@ -11,10 +11,7 @@ export default {
     loading: '@/components/shared/Loading.vue',
 
     // When SSR
-    loadingIndicator: {
-        name: 'folding-cube',
-        color: '#336CCE',
-    },
+    loadingIndicator: false,
 
     head: {
         title: 'Wealth Managament',

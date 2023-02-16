@@ -1,6 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url('./transitions.scss');
 
 html {
     font-family: 'Be Vietnam Pro', sans-serif;

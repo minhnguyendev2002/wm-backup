@@ -5,7 +5,7 @@
 </template>
 
   <script>
-    const SCRIPT_ID = 'tradingview-widget-script';
+    const SCRIPT_ID = 'tradingview-widget-script-crossTrade';
     const CONTAINER_ID = 'tradingview-widget-container';
 
     export default {
@@ -38,6 +38,7 @@
             };
         },
         mounted() {
+            this.appendScript(this.initWidget);
             setTimeout(() => {
                 this.appendScript(this.initWidget);
             }, 300);

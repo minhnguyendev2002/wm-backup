@@ -5,7 +5,7 @@
 </template>
 
   <script>
-    const SCRIPT_ID = 'tradingview-widget-script';
+    const SCRIPT_ID = 'tradingview-widget-script-indices';
     const CONTAINER_ID = 'tradingview-widget-container';
 
     export default {
@@ -36,32 +36,28 @@
                             title: 'Indices',
                             symbols: [
                                 {
-                                    s: 'CME_MINI:ES1!',
+                                    s: 'FOREXCOM:SPXUSD',
                                     d: 'S&P 500',
                                 },
                                 {
-                                    s: 'CME:6E1!',
-                                    d: 'Euro',
+                                    s: 'FOREXCOM:NSXUSD',
+                                    d: 'US 100',
                                 },
                                 {
-                                    s: 'FX:USDJPY',
-                                    d: 'USD/JPY',
+                                    s: 'FOREXCOM:DJI',
+                                    d: 'Dow 30',
                                 },
                                 {
-                                    s: 'COMEX:GC1!',
-                                    d: 'Gold',
+                                    s: 'INDEX:NKY',
+                                    d: 'Nikkei 225',
                                 },
                                 {
-                                    s: 'NYMEX:CL1!',
-                                    d: 'Crude Oil',
+                                    s: 'INDEX:DEU40',
+                                    d: 'DAX Index',
                                 },
                                 {
-                                    s: 'NYMEX:NG1!',
-                                    d: 'Natural Gas',
-                                },
-                                {
-                                    s: 'CBOT:ZC1!',
-                                    d: 'Corn',
+                                    s: 'FOREXCOM:UKXGBP',
+                                    d: 'UK 100',
                                 },
                             ],
                             originalTitle: 'Indices',
