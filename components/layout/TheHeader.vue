@@ -1,9 +1,9 @@
 <template>
     <div class="2xl:max-w-[1500px] mx-auto bg-white lg:py-1 px-3 md:px-6 flex justify-between items-center">
         <div class="flex items-center w-full">
-            <div class="max-w-[300px]">
+            <nuxt-link to="/" class="max-w-[300px] block">
                 <img class="w-full h-full object-cover" src="/images/logo.jpg" alt="logo">
-            </div>
+            </nuxt-link>
             <div>
                 <a-menu
                     v-if="!isTablet"

@@ -191,48 +191,20 @@
                 </div>
             </div>
             <div class="my-20 w-full h-[2px] bg-gray-20" />
-            <div class="grid grid-cols-1 gap-y-10">
-                <div class="grid grid-cols-1 gap-10">
-                    <div data-aos="fade-top" :data-aos-duration="600" class="relative z-[1]">
-                        <h2 class="text-3xl text-center sm:text-[40px] sm:leading-[55px] mb-3 font-bold text-second-100">
-                            ĐỐI TÁC VÀ KHÁCH HÀNG
-                        </h2>
-                        <span class="block text-center uppercase text-lg font-semibold py-2 text-gray-80 relative">
-                            Đối tác và khách hàng của Wealth Management
-                        </span>
-                        <div class="grid grid-cols-5 gap-5 mt-10">
-                            <div class="border-[2px] border-solid border-prim-100 rounded">
-                                <img class="w-full" src="/images/partners/mbbank.png" alt="/">
-                            </div>
-                            <div class="border-[2px] border-solid border-prim-100 rounded">
-                                <img class="w-full" src="/images/partners/mbbank.png" alt="/">
-                            </div>
-                            <div class="border-[2px] border-solid border-prim-100 rounded">
-                                <img class="w-full" src="/images/partners/mbbank.png" alt="/">
-                            </div>
-                            <div class="border-[2px] border-solid border-prim-100 rounded">
-                                <img class="w-full" src="/images/partners/mbbank.png" alt="/">
-                            </div>
-                            <div class="border-[2px] border-solid border-prim-100 rounded">
-                                <img class="w-full" src="/images/partners/mbbank.png" alt="/">
-                            </div>
-                            <div class="border-[2px] border-solid border-prim-100 rounded">
-                                <img class="w-full" src="/images/partners/mbbank.png" alt="/">
-                            </div>
-                        </div>
-                    </div>
-                </div>
+            <div class="container mx-auto overflow-x-hidden overflow-y-clip">
+                <AboutUsPartner />
             </div>
         </div>
     </div>
 </template>
 
 <script>
+    import AboutUsPartner from '@/components/about/Partner.vue';
 
     export default {
-        fetchOnServer: false,
         scrollToTop: true,
         components: {
+            AboutUsPartner,
         },
 
         data() {
