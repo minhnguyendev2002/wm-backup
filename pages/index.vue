@@ -243,7 +243,6 @@
     import PreciusTrade from '@/components/shared/WidgetTrade/Precious.vue';
 
     export default {
-        fetchOnServer: false,
         scrollToTop: true,
         components: {
             CountUp,
