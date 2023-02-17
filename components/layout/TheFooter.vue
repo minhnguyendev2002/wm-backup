@@ -14,8 +14,11 @@
                                 <a class="!text-prim-100 text-3xl hover:underline" href="tel:0588888548">
                                     058.8888.548
                                 </a>
+                                <div class="font-medium text-xl text-white mt-3">
+                                    Chăm sóc khách hàng 24/7
+                                </div>
                             </div>
-                            <ul class="flex items-center gap-5">
+                            <!-- <ul class="flex items-center gap-5">
                                 <li>
                                     <nuxt-link
                                         aria-label="About us on Facebook"
@@ -52,36 +55,29 @@
                                         <i class="fab fa-dribbble" />
                                     </nuxt-link>
                                 </li>
-                            </ul>
+                            </ul> -->
                         </div>
                     </div>
                     <div class="col-span-12 md:col-span-6 xl:col-span-2">
                         <div>
                             <span class="text-2xl leading-9 font-bold text-white mb-7 block">
-                                Thông tin
+                                Giới thiệu về WM
                             </span>
                             <div>
                                 <ul class="flex flex-col gap-3">
-                                    <li>
-                                        <nuxt-link class="!text-white/70 font-medium text-lg hover:!text-prim-100 transition-all duration-500" to="/about-us">
-                                            Về chúng tôi
+                                    <li class="flex items-center gap-3">
+                                        <nuxt-link to="/about-us" class="flex-1 font-medium !text-lg !text-white/70">
+                                            Giới thiệu
                                         </nuxt-link>
                                     </li>
-                                    <!-- <li>
-                                        <nuxt-link class="!text-white/70 font-medium text-lg hover:!text-prim-100 transition-all duration-500" to="/">
-                                            Tin tức & Sự kiện
-                                        </nuxt-link>
+                                    <li class="flex items-center gap-3">
+                                        <a
+                                            class="flex-1 font-medium !text-lg !text-white/70 hover:!text-prim-100 transition-all duration-500"
+                                            href="/gift"
+                                        >
+                                            Giải thưởng WM
+                                        </a>
                                     </li>
-                                    <li>
-                                        <nuxt-link class="!text-white/70 font-medium text-lg hover:!text-prim-100 transition-all duration-500" to="/">
-                                            Tài liệu
-                                        </nuxt-link>
-                                    </li>
-                                    <li>
-                                        <nuxt-link class="!text-white/70 font-medium text-lg hover:!text-prim-100 transition-all duration-500" to="/">
-                                            Liên hệ
-                                        </nuxt-link>
-                                    </li> -->
                                 </ul>
                             </div>
                         </div>
@@ -89,12 +85,24 @@
                     <div class="col-span-12 md:col-span-6 xl:col-span-3">
                         <div class="">
                             <span class="text-2xl leading-9 font-bold text-white mb-7 block">
-                                Thời gian
+                                Sản phẩm giao dịch
                             </span>
                             <div>
-                                <div class="font-medium text-lg text-white/70">
-                                    Chăm sóc khách hàng 24/7
-                                </div>
+                                <ul class="flex flex-col gap-3">
+                                    <li
+                                        v-for="service in services"
+                                        :key="service.id"
+                                        class="flex items-center gap-3"
+                                        @click="changeTypeTradeOverview(service.type)"
+                                    >
+                                        <a
+                                            class="flex-1 block font-medium !text-lg !text-white/70 hover:!text-prim-100 transition-all duration-500"
+                                            :href="path !== '/' ? `/#${service.type}` : `#${service.type}`"
+                                        >
+                                            {{ service.title }}
+                                        </a>
+                                    </li>
+                                </ul>
                             </div>
                         </div>
                     </div>
@@ -115,19 +123,16 @@
                                         </a>
                                     </li>
                                     <li class="flex items-center gap-3">
+                                        <span class="w-12 h-12 leading-[48px] block !text-white !bg-[#1b1e83] text-center relative z-10 rounded-full"><i class="fas fa-comment" /></span>
+                                        <span class="flex-1 font-medium !text-lg !text-white/70">
+                                            wealthmanagement.qltc@gmail.com
+                                        </span>
+                                    </li>
+                                    <li class="flex items-center gap-3">
                                         <span class="w-12 h-12 leading-[48px] block !text-white !bg-[#1b1e83] text-center relative z-10 rounded-full"><i class="fas fa-map-pin" /></span>
                                         <span class="flex-1 font-medium !text-lg !text-white/70">
                                             Wealth Managament Address
                                         </span>
-                                    </li>
-                                    <li class="flex items-center gap-3">
-                                        <span class="w-12 h-12 leading-[48px] block !text-white !bg-[#1b1e83] text-center relative z-10 rounded-full"><i class="fas fa-comment" /></span>
-                                        <a
-                                            class="flex-1 font-medium !text-lg !text-white/70 hover:!text-prim-100 transition-all duration-500"
-                                            href="#"
-                                        >
-                                            infor@wealthmanagament.com
-                                        </a>
                                     </li>
                                 </ul>
                             </div>
@@ -150,11 +155,31 @@
 </template>
 
 <script>
+    import { mapState } from 'vuex';
+
     export default {
         props: {
             data: {
                 type: Object,
                 default: () => {},
+            },
+        },
+        data() {
+            return {
+            };
+        },
+
+        computed: {
+            ...mapState('widget', ['services']),
+            path() {
+                return this.$route.path;
+            },
+        },
+
+        methods: {
+            changeTypeTradeOverview(key) {
+                console.log(this.$route.path);
+                this.$store.dispatch('widget/changeTypeTradeOverview', key);
             },
         },
     };
