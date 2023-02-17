@@ -37,9 +37,9 @@
                     data-aos="fade-left"
                     :data-aos-duration="600"
                     :data-aos-delay="100"
-                    class="flex flex-col lg:flex-row items-center"
+                    class="flex flex-col lg:flex-row items-center w-full"
                 >
-                    <div>
+                    <div class="w-full">
                         <video
                             class="w-full"
                             controls

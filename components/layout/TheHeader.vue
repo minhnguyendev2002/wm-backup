@@ -151,6 +151,10 @@
                             label: 'Về chúng tôi',
                             key: '/about-us',
                         },
+                        {
+                            label: 'Giải thưởng',
+                            key: '/certificate',
+                        },
                     ],
                 }];
             },

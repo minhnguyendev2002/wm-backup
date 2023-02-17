@@ -73,7 +73,7 @@
                                     <li class="flex items-center gap-3">
                                         <a
                                             class="flex-1 font-medium !text-lg !text-white/70 hover:!text-prim-100 transition-all duration-500"
-                                            href="/gift"
+                                            href="/certificate"
                                         >
                                             Giải thưởng WM
                                         </a>
@@ -126,12 +126,6 @@
                                         <span class="w-12 h-12 leading-[48px] block !text-white !bg-[#1b1e83] text-center relative z-10 rounded-full"><i class="fas fa-comment" /></span>
                                         <span class="flex-1 font-medium !text-lg !text-white/70">
                                             wealthmanagement.qltc@gmail.com
-                                        </span>
-                                    </li>
-                                    <li class="flex items-center gap-3">
-                                        <span class="w-12 h-12 leading-[48px] block !text-white !bg-[#1b1e83] text-center relative z-10 rounded-full"><i class="fas fa-map-pin" /></span>
-                                        <span class="flex-1 font-medium !text-lg !text-white/70">
-                                            Wealth Managament Address
                                         </span>
                                     </li>
                                 </ul>

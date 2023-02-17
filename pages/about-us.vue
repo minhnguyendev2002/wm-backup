@@ -7,7 +7,7 @@
             />
             <div class="container mx-auto text-center lg:text-right min-h-[300px] md:min-h-[400px] xl:min-h-[550px] flex flex-col">
                 <div class="overflow-y-hidden flex flex-col justify-center items-center mb-auto flex-1">
-                    <h1 class="text-5xl lg:text-[80px] font-bold lg:leading-[90px] text-white relative z-[1] animate-[fade-top_1s_linear_.5s_forwards] opacity-0 translate-y-[100%]">
+                    <h1 class="text-center text-5xl lg:text-[80px] font-bold lg:leading-[90px] text-white relative z-[1] animate-[fade-top_1s_linear_.5s_forwards] opacity-0 translate-y-[100%]">
                         Wealth Managament
                     </h1>
                     <h2 class="xl:max-w-[70%] text-center mx-auto relative z-[1] text-2xl sm:text-3xl font-medium mb-11 text-white animate-[fade-top_.7s_linear_1s_forwards] opacity-0 translate-y-[100%]">
