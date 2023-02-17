@@ -11,8 +11,8 @@
                                 <span class="text-xl text-white/70 block">
                                     Gọi cho chúng tôi
                                 </span>
-                                <a class="!text-prim-100 text-3xl hover:underline" href="#">
-                                    phone
+                                <a class="!text-prim-100 text-3xl hover:underline" href="tel:0588888548">
+                                    058.8888.548
                                 </a>
                             </div>
                             <ul class="flex items-center gap-5">
@@ -63,11 +63,11 @@
                             <div>
                                 <ul class="flex flex-col gap-3">
                                     <li>
-                                        <nuxt-link class="!text-white/70 font-medium text-lg hover:!text-prim-100 transition-all duration-500" to="/">
+                                        <nuxt-link class="!text-white/70 font-medium text-lg hover:!text-prim-100 transition-all duration-500" to="/about-us">
                                             Về chúng tôi
                                         </nuxt-link>
                                     </li>
-                                    <li>
+                                    <!-- <li>
                                         <nuxt-link class="!text-white/70 font-medium text-lg hover:!text-prim-100 transition-all duration-500" to="/">
                                             Tin tức & Sự kiện
                                         </nuxt-link>
@@ -81,7 +81,7 @@
                                         <nuxt-link class="!text-white/70 font-medium text-lg hover:!text-prim-100 transition-all duration-500" to="/">
                                             Liên hệ
                                         </nuxt-link>
-                                    </li>
+                                    </li> -->
                                 </ul>
                             </div>
                         </div>
@@ -106,6 +106,15 @@
                             <div>
                                 <ul class="flex flex-col gap-3">
                                     <li class="flex items-center gap-3">
+                                        <span class="w-12 h-12 leading-[48px] block !text-white !bg-[#1b1e83] text-center relative z-10 rounded-full"><i class="fas fa-phone" /></span>
+                                        <a
+                                            class="flex-1 font-medium !text-lg !text-white/70 hover:!text-prim-100 transition-all duration-500"
+                                            href="tel:0588888548"
+                                        >
+                                            058.8888.548
+                                        </a>
+                                    </li>
+                                    <li class="flex items-center gap-3">
                                         <span class="w-12 h-12 leading-[48px] block !text-white !bg-[#1b1e83] text-center relative z-10 rounded-full"><i class="fas fa-map-pin" /></span>
                                         <span class="flex-1 font-medium !text-lg !text-white/70">
                                             Wealth Managament Address
@@ -118,15 +127,6 @@
                                             href="#"
                                         >
                                             infor@wealthmanagament.com
-                                        </a>
-                                    </li>
-                                    <li class="flex items-center gap-3">
-                                        <span class="w-12 h-12 leading-[48px] block !text-white !bg-[#1b1e83] text-center relative z-10 rounded-full"><i class="fas fa-phone" /></span>
-                                        <a
-                                            class="flex-1 font-medium !text-lg !text-white/70 hover:!text-prim-100 transition-all duration-500"
-                                            href="#"
-                                        >
-                                            Wealth Managament phone
                                         </a>
                                     </li>
                                 </ul>

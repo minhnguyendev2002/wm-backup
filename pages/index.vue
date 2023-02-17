@@ -4,7 +4,7 @@
         <div class="container mx-auto">
             <div class="grid grid-cols-1 lg:grid-cols-2 lg:px-10 py-20 gap-y-10 sm:py-32">
                 <div data-aos="fade-right" :data-aos-duration="600" class="lg:mr-24 relative z-[1]">
-                    <h2 class="text-3xl sm:text-[40px] sm:leading-[55px] mb-3 font-bold text-second-100">
+                    <h2 class="text-3xl sm:text-[40px] sm:leading-[55px] mb-3 font-bold text-second-100 uppercase">
                         Wealth Managament
                     </h2>
                     <span class="uppercase text-lg font-semibold py-2 text-gray-80 relative">
@@ -17,13 +17,12 @@
                                 <span class="text-xl font-semibold text-second-100">Đội ngũ chuyên gia tư vấn chuyên nghiệp</span>
                             </div>
                             <p class="text-lg">
-                                Wealth Management là công ty tư vấn, đầu tư và quản lý tài chính cá nhân chuyên nghiệp hoạt động hàng đầu tại
-                                Châu Á và được thành lập vào năm 2008.  và có trụ sở chính tại Singapore. Nó chủ yếu hoạt động các dịch vụ tài
-                                chính cá nhân, dịch vụ ngân hàng tư nhân, dịch vụ ngân hàng thương mại và doanh nghiệp, dịch vụ ngân hàng đầu
-                                tư, tài chính doanh nghiệp và thị trường vốn. Kinh doanh, dịch vụ vốn ngoại hối, dịch vụ môi giới tương lai,
-                                quản lý tài sản, quản lý vốn đầu tư mạo hiểm, bảo hiểm và dịch vụ môi giới chứng khoán.
-                                Với triết lý: <strong>“Đầu tư vững vàng, Thảnh thơi vui sống“</strong> Đội ngũ đã thành công trong việc giúp khách hàng,đối
-                                tác tích lũy, gia tăng tài sản theo thời gian.
+                                Wealth Management là công ty tư vấn, đầu tư và quản lý tài chính cá nhân chuyên nghiệp hoạt động
+                                hàng đầu tại Châu Á và được thành lập vào năm 2008.  có trụ sở chính tại Singapore. Nó chủ yếu hoạt
+                                động các dịch vụ tài chính cá nhân, dịch vụ ngân hàng tư nhân, dịch vụ ngân hàng thương mại và doanh
+                                nghiệp, dịch vụ ngân hàng đầu tư, tài chính doanh nghiệp và thị trường vốn. Kinh doanh, dịch vụ vốn
+                                ngoại hối, dịch vụ môi giới tương lai, quản lý tài sản, quản lý vốn đầu tư mạo hiểm, bảo hiểm và dịch
+                                vụ môi giới chứng khoán.
                             </p>
                         </div>
                     </div>
@@ -57,7 +56,7 @@
                         class="uppercase text-lg font-semibold pt-5 text-gray-80 relative
                                    after:content-[''] after:absolute after:h-0.5 after:w-6 after:bg-prim-100 after:top-0 after:left-1/2 after:-translate-x-1/2"
                     >Công việc của chúng tôi</span>
-                    <h2 class="text-3xl sm:text-[40px] sm:leading-[55px] font-bold text-second-100 mt-3">
+                    <h2 class="text-3xl sm:text-[40px] sm:leading-[55px] font-bold text-second-100 mt-3 uppercase">
                         Công việc kinh doanh chính
                     </h2>
                 </div>
@@ -92,37 +91,37 @@
         </div>
         <div class="py-20 relative bg-[url('/images/backgrounds/trade.png')] bg-cover bg-no-repeat bg-center">
             <div v-show="widgetActive === 'forex'" id="forex" class="container">
-                <h2 class="text-center text-3xl sm:text-[40px] sm:leading-[55px] font-bold text-second-100 mb-5">
+                <h2 class="text-center text-3xl sm:text-[40px] sm:leading-[55px] font-bold text-second-100 mb-5 uppercase">
                     Giao dịch Forex
                 </h2>
                 <ForexTrade />
             </div>
             <div v-show="widgetActive === 'indices'" id="indices" class="container">
-                <h2 class="text-center text-3xl sm:text-[40px] sm:leading-[55px] font-bold text-second-100 mb-5">
+                <h2 class="text-center text-3xl sm:text-[40px] sm:leading-[55px] font-bold text-second-100 mb-5 uppercase">
                     Chỉ số quốc tế
                 </h2>
                 <IndicesTrade />
             </div>
             <div v-show="widgetActive === 'stocks'" id="stocks" class="container">
-                <h2 class="text-center text-3xl sm:text-[40px] sm:leading-[55px] font-bold text-second-100 mb-5">
+                <h2 class="text-center text-3xl sm:text-[40px] sm:leading-[55px] font-bold text-second-100 mb-5 uppercase">
                     Cổ phiếu
                 </h2>
                 <StocksTrade />
             </div>
             <div v-show="widgetActive === 'bitcoin'" id="bitcoin" class="container">
-                <h2 class="text-center text-3xl sm:text-[40px] sm:leading-[55px] font-bold text-second-100 mb-5">
+                <h2 class="text-center text-3xl sm:text-[40px] sm:leading-[55px] font-bold text-second-100 mb-5 uppercase">
                     Tiền tệ kỹ thuật số
                 </h2>
                 <BitcoinTrade />
             </div>
             <div v-show="widgetActive === 'futures'" id="futures" class="container">
-                <h2 class="text-center text-3xl sm:text-[40px] sm:leading-[55px] font-bold text-second-100 mb-5">
+                <h2 class="text-center text-3xl sm:text-[40px] sm:leading-[55px] font-bold text-second-100 mb-5 uppercase">
                     Hợp đồng tương lai quốc tế
                 </h2>
                 <FuturesTrade />
             </div>
             <div v-show="widgetActive === 'precius'" id="precius" class="container">
-                <h2 class="text-center text-3xl sm:text-[40px] sm:leading-[55px] font-bold text-second-100 mb-5">
+                <h2 class="text-center text-3xl sm:text-[40px] sm:leading-[55px] font-bold text-second-100 mb-5 uppercase">
                     Kim loại quý
                 </h2>
                 <PreciusTrade />
@@ -131,7 +130,7 @@
         <div class="bg-[#f6f6f6]">
             <div class="container mx-auto py-20">
                 <div class="w-full">
-                    <h2 class="text-2xl sm:text-[40px] sm:leading-[55px] font-bold text-second-100">
+                    <h2 class="text-2xl sm:text-[40px] sm:leading-[55px] font-bold text-second-100 uppercase">
                         Đội ngũ chuyên gia
                     </h2>
                     <p class="my-5 text-lg">
@@ -187,7 +186,7 @@
         </div>
         <div class="container mx-auto">
             <div data-aos="fade-top" data-aos-anchor-placement="top">
-                <h2 class="text-2xl text-center sm:text-[40px] sm:leading-[55px] font-bold text-second-100 mt-20">
+                <h2 class="text-2xl text-center sm:text-[40px] sm:leading-[55px] font-bold text-second-100 mt-20 uppercase">
                     Những con số về Wealth Management
                 </h2>
                 <p class="my-5 text-lg text-center max-w-[1024px] mx-auto">
@@ -338,17 +337,17 @@
                     {
                         thumbnail: '/images/banners/default-banner.jpg',
                         title: 'Wealth Managament',
-                        subtitle: 'Wealth Managament cung cấp công nghệ tài liệu bằng sáng chế toàn cầu , Với triết lý: “Đầu tư vững vàng, Thảnh thơi vui sống"',
+                        subtitle: 'Wealth Managament cung cấp công nghệ tài liệu bằng sáng chế toàn cầu với triết lý: “Đầu tư vững vàng, Thảnh thơi vui sống"',
                     },
                     {
                         thumbnail: '/images/banners/banner-3.jpg',
                         title: 'Wealth Managament',
-                        subtitle: 'Wealth Managament cung cấp công nghệ tài liệu bằng sáng chế toàn cầu , Với triết lý: “Đầu tư vững vàng, Thảnh thơi vui sống"',
+                        subtitle: 'Wealth Managament cung cấp công nghệ tài liệu bằng sáng chế toàn cầu với triết lý: “Đầu tư vững vàng, Thảnh thơi vui sống"',
                     },
                     {
                         thumbnail: 'https://www.isefpzak.xyz/img/BANNER1.a6b9f634.png',
                         title: 'Wealth Managament',
-                        subtitle: 'Wealth Managament cung cấp công nghệ tài liệu bằng sáng chế toàn cầu , Với triết lý: “Đầu tư vững vàng, Thảnh thơi vui sống"',
+                        subtitle: 'Wealth Managament cung cấp công nghệ tài liệu bằng sáng chế toàn cầu với triết lý: “Đầu tư vững vàng, Thảnh thơi vui sống"',
                     },
                 ],
                 typeTrade: [
