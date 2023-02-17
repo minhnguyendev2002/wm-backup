@@ -35,7 +35,7 @@
                                     hàng thương mại và doanh nghiệp, dịch vụ ngân hàng đầu tư, tài chính doanh nghiệp và thị trường vốn.
                                     Kinh doanh, dịch vụ vốn ngoại hối, dịch vụ môi giới tương lai, quản lý tài sản, quản lý vốn
                                     đầu tư mạo hiểm, bảo hiểm và dịch vụ môi giới chứng khoán.
-                                    Với triết lý: <strong>"Đầu tư vững vàng, Thảnh thơi vui sống"</strong> Đội ngũ đã thành công trong việc giúp khách hàng, đối tác tích lũy, gia tăng tài
+                                    Với triết lý: <strong>"Đầu tư vững vàng - Thảnh thơi vui sống"</strong> Đội ngũ đã thành công trong việc giúp khách hàng, đối tác tích lũy, gia tăng tài
                                     sản theo thời gian.
                                 </p>
                             </div>
