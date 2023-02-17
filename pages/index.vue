@@ -337,17 +337,17 @@
                     {
                         thumbnail: '/images/banners/default-banner.jpg',
                         title: 'Wealth Managament',
-                        subtitle: 'Wealth Managament cung cấp công nghệ tài liệu bằng sáng chế toàn cầu với triết lý: “Đầu tư vững vàng, Thảnh thơi vui sống"',
+                        subtitle: 'Wealth Managament cung cấp công nghệ tài liệu bằng sáng chế toàn cầu với triết lý: “Đầu tư vững vàng - Thảnh thơi vui sống"',
                     },
                     {
                         thumbnail: '/images/banners/banner-3.jpg',
                         title: 'Wealth Managament',
-                        subtitle: 'Wealth Managament cung cấp công nghệ tài liệu bằng sáng chế toàn cầu với triết lý: “Đầu tư vững vàng, Thảnh thơi vui sống"',
+                        subtitle: 'Wealth Managament cung cấp công nghệ tài liệu bằng sáng chế toàn cầu với triết lý: “Đầu tư vững vàng - Thảnh thơi vui sống"',
                     },
                     {
                         thumbnail: 'https://www.isefpzak.xyz/img/BANNER1.a6b9f634.png',
                         title: 'Wealth Managament',
-                        subtitle: 'Wealth Managament cung cấp công nghệ tài liệu bằng sáng chế toàn cầu với triết lý: “Đầu tư vững vàng, Thảnh thơi vui sống"',
+                        subtitle: 'Wealth Managament cung cấp công nghệ tài liệu bằng sáng chế toàn cầu với triết lý: “Đầu tư vững vàng - Thảnh thơi vui sống"',
                     },
                 ],
                 typeTrade: [

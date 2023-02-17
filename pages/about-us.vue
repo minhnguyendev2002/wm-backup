@@ -11,7 +11,7 @@
                         Wealth Managament
                     </h1>
                     <h2 class="xl:max-w-[70%] text-center mx-auto relative z-[1] text-2xl sm:text-3xl font-medium mb-11 text-white animate-[fade-top_.7s_linear_1s_forwards] opacity-0 translate-y-[100%]">
-                        Wealth Managament cung cấp công nghệ tài liệu bằng sáng chế toàn cầu với triết lý: “Đầu tư vững vàng, Thảnh thơi vui sống"
+                        Wealth Managament cung cấp công nghệ tài liệu bằng sáng chế toàn cầu với triết lý: "Đầu tư vững vàng - Thảnh thơi vui sống"
                     </h2>
                 </div>
             </div>
