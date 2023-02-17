@@ -2,7 +2,7 @@
     <div>
         <div class="relative w-full h-full py-16 sm:pt-[120px] sm:pb-[100px]">
             <div
-                :style="{ backgroundImage: `url('/images/banners/about-us.webp')` }"
+                :style="{ backgroundImage: `url('/images/banners/certificate.jpg')` }"
                 class="absolute top-0 z-[0] w-full h-full after:absolute after:content-[''] after:top-0 after:left-0 after:w-full after:h-full after:opacity-50 after:bg-[#0c4ea4] bg-cover bg-no-repeat bg-center"
             />
             <div class="container mx-auto text-center lg:text-right min-h-[300px] md:min-h-[400px] xl:min-h-[550px] flex flex-col">
@@ -10,7 +10,7 @@
                     <h1 class="text-center text-5xl lg:text-[80px] font-bold lg:leading-[90px] text-white relative z-[1] animate-[fade-top_1s_linear_.5s_forwards] opacity-0 translate-y-[100%]">
                         Các giải thưởng của đội ngũ QLTC
                     </h1>
-                    <h2 class="xl:max-w-[70%] text-center mx-auto relative z-[1] text-xl sm:text-3xl font-medium mb-11 text-white animate-[fade-top_.7s_linear_1s_forwards] opacity-0 translate-y-[100%]">
+                    <h2 class="xl:max-w-[80%] text-center mx-auto relative z-[1] text-2xl sm:text-4xl sm:text-[30px] font-medium mb-11 text-white animate-[fade-top_.7s_linear_1s_forwards] opacity-0 translate-y-[100%]">
                         Khi bạn lựa chọn Đội ngũ QLTC Wealth Management là bạn đã lựa chọn đúng một đối tác lâu dài và đáng tin cậy.
                         Chúng tôi cố gắng giúp bạn thành công bằng cách cung cấp khả năng thực thi đặc biệt, công nghệ tiên tiến và
                         nhân viên chăm sóc khách hàng chuyên nghiệp. Cam kết của chúng tôi đã được các ấn phẩm và tổ chức trong ngành công nhận.
@@ -32,7 +32,7 @@
                         <div class="grid grid-cols-1 lg:grid-cols-1 gap-3 mt-5">
                             <div>
                                 <p class="text-lg">
-                                    Giải thưởng Nhà đầu tư Vốn chủ sở hữu Giải thưởng Nhà đầu tư Vốn chủ sở hữu ghi nhận và
+                                    Giải thưởng Nhà đầu tư Vốn chủ sở hữu ghi nhận và
                                     trao thưởng cho các đối tác trên thị trường đầu tư về dịch vụ đặc biệt, phương pháp hay nhất,
                                     sản phẩm đầu tư tiên tiến và đổi mới trong ngành tài chính. Nó cũng tạo cơ hội cho các nhà đầu
                                     tư bán lẻ tại Singapore vinh danh các nhà cung cấp dịch vụ yêu thích của họ ở nhiều hạng mục khác nhau.
@@ -218,7 +218,7 @@
                         <div class="grid grid-cols-1 lg:grid-cols-1 gap-3 mt-5">
                             <div>
                                 <p class="text-lg">
-                                    Forex Magnates (trước đây là Forex Magnates) tin tức, nghiên cứu và sự kiện tài chính thế giới
+                                    Các ông trùm tài chính (trước đây là các ông trùm ngoại hối) tin tức, nghiên cứu và sự kiện tài chính thế giới
                                     cho ngành giao dịch toàn cầu. Kể từ khi thành lập vào năm 2012 Giải thưởng Forex Magnates đã trở
                                     thành tiêu chuẩn chất lượng của ngành, với các công ty được các đồng nghiệp bình chọn vì sự xuất sắc trong các ngành tương ứng của họ.
                                 </p>

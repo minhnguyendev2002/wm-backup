@@ -1,6 +1,6 @@
 <template>
     <footer class="relative">
-        <div class="absolute z-[-1] bg-[url('/images/backgrounds/shape-4.png')] bg-cover bg-no-repeat bg-center w-full h-full" />
+        <div class="absolute z-[-1] bg-second-100 bg-cover bg-no-repeat bg-center w-full h-full" />
         <div class="container mx-auto">
             <div class="footer-top text-white py-24">
                 <div class="grid grid-cols-12 gap-y-8">
@@ -11,7 +11,7 @@
                                 <span class="text-xl text-white/70 block">
                                     Gọi cho chúng tôi
                                 </span>
-                                <a class="!text-prim-100 text-3xl hover:underline" href="tel:0588888548">
+                                <a class="!text-white text-3xl underline" href="tel:0588888548">
                                     058.8888.548
                                 </a>
                                 <div class="font-medium text-xl text-white mt-3">
@@ -135,7 +135,7 @@
                 </div>
             </div>
             <div class="text-center">
-                <div class="bg-second-100 border-t-[1px] border-solid border-white/10">
+                <div class="bg-[#1b1e83] border-t-[1px] border-solid border-white/10">
                     <p class="mb-0 text-white py-7">
                         © Copyright 2023 by
                         <nuxt-link to="/" class="!text-white">
