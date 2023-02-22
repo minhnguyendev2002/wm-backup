@@ -139,7 +139,7 @@
                     <p class="mb-0 text-white py-7">
                         © Copyright 2023 by
                         <nuxt-link to="/" class="!text-white">
-                            Wealth Managament
+                            Wealth Management
                         </nuxt-link>
                     </p>
                 </div>

@@ -21,10 +21,10 @@
                                 <transition name="translate-y-transition">
                                     <div v-if="titleAnimate">
                                         <h1 class="text-5xl lg:text-[80px] font-bold lg:leading-[90px] text-white relative z-[1] animate-[fade-top_1s_linear_.5s_forwards] opacity-0 translate-y-[100%]">
-                                            {{ banner.title || 'Wealth Managament' }}
+                                            {{ banner.title || 'Wealth Management' }}
                                         </h1>
                                         <h2 class="xl:max-w-[70%] ml-auto relative z-[1] text-2xl sm:text-3xl font-medium mb-11 text-white animate-[fade-top_.7s_linear_1s_forwards] opacity-0 translate-y-[100%]">
-                                            {{ banner.subtitle || 'Wealth Managament cung cấp công nghệ tài liệu bằng sáng chế toàn cầu với triết lý: “Đầu tư vững vàng - Thảnh thơi vui sống"' }}
+                                            {{ banner.subtitle || 'Wealth Management cung cấp công nghệ tài liệu bằng sáng chế toàn cầu với triết lý: “Đầu tư vững vàng - Thảnh thơi vui sống"' }}
                                         </h2>
 
                                         <a

@@ -18,7 +18,7 @@
             <div
                 class="zalo-chat-widget !right-4 sm:!right-8"
                 data-oaid="1823779553933075111"
-                data-welcome-message="Chào mừng bạn đến với Wealth Managament, inbox ngay để được hỗ trợ"
+                data-welcome-message="Chào mừng bạn đến với Wealth Management, inbox ngay để được hỗ trợ"
                 data-autopopup="0"
                 data-width="350"
                 data-height="420"

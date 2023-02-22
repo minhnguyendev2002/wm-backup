@@ -5,7 +5,7 @@
             <div class="grid grid-cols-1 lg:grid-cols-2 lg:px-10 py-20 gap-y-10 sm:py-32">
                 <div data-aos="fade-right" :data-aos-duration="600" class="lg:mr-24 relative z-[1]">
                     <h2 class="text-3xl sm:text-[40px] sm:leading-[55px] mb-3 font-bold text-second-100 uppercase">
-                        Wealth Managament
+                        Wealth Management
                     </h2>
                     <span class="uppercase text-lg font-semibold py-2 text-gray-80 relative">
                         Quản lý tài sản
@@ -299,18 +299,18 @@
                 banners: [
                     {
                         thumbnail: '/images/banners/default-banner.jpg',
-                        title: 'Wealth Managament',
-                        subtitle: 'Wealth Managament cung cấp công nghệ tài liệu bằng sáng chế toàn cầu với triết lý: “Đầu tư vững vàng - Thảnh thơi vui sống"',
+                        title: 'Wealth Management',
+                        subtitle: 'Wealth Management cung cấp công nghệ tài liệu bằng sáng chế toàn cầu với triết lý: “Đầu tư vững vàng - Thảnh thơi vui sống"',
                     },
                     {
                         thumbnail: '/images/banners/banner-3.jpg',
-                        title: 'Wealth Managament',
-                        subtitle: 'Wealth Managament cung cấp công nghệ tài liệu bằng sáng chế toàn cầu với triết lý: “Đầu tư vững vàng - Thảnh thơi vui sống"',
+                        title: 'Wealth Management',
+                        subtitle: 'Wealth Management cung cấp công nghệ tài liệu bằng sáng chế toàn cầu với triết lý: “Đầu tư vững vàng - Thảnh thơi vui sống"',
                     },
                     {
                         thumbnail: 'https://www.isefpzak.xyz/img/BANNER1.a6b9f634.png',
-                        title: 'Wealth Managament',
-                        subtitle: 'Wealth Managament cung cấp công nghệ tài liệu bằng sáng chế toàn cầu với triết lý: “Đầu tư vững vàng - Thảnh thơi vui sống"',
+                        title: 'Wealth Management',
+                        subtitle: 'Wealth Management cung cấp công nghệ tài liệu bằng sáng chế toàn cầu với triết lý: “Đầu tư vững vàng - Thảnh thơi vui sống"',
                     },
                 ],
             };
