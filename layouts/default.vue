@@ -9,7 +9,7 @@
 
             <TheFooter />
         </div>
-        <a href="tel:0588888548" class="fixed inline-block sm:hidden text-center top-[calc(100vh-20%)] z-50 w-14 h-14 rounded-full bg-prim-100 !text-white hover:bg-prim-100 transition-all duration-700 right-4 sm:right-8">
+        <a href="tel:0588888548" class="fixed inline-block sm:hidden text-center bottom-[120px] z-50 w-14 h-14 rounded-full bg-prim-100 !text-white hover:bg-prim-100 transition-all duration-700 right-4 sm:right-8">
             <span class="leading-[56px]">
                 <i class="fas fa-phone text-lg" />
             </span>
