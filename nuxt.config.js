@@ -146,7 +146,7 @@ export default {
         preload: true,
         download: false,
         families: {
-            'Varela+Round': [300, 400, 500, 600, 700],
+            Raleway: [300, 400, 500, 600, 700],
         },
     },
 
