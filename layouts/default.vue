@@ -21,8 +21,6 @@
     import TheHeader from '@/components/layout/TheHeader.vue';
     import TheFooter from '@/components/layout/TheFooter.vue';
 
-    const SCRIPT_ID = 'zalo-widget';
-
     export default {
         components: {
             TheHeader,
