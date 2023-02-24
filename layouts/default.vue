@@ -14,6 +14,11 @@
                 <i class="fas fa-phone text-lg" />
             </span>
         </a>
+        <div class="fixed w-14 h-14 bottom-[50px] rounded-full right-4 sm:right-8 z-50">
+            <a href="https://zalo.me/0588888548" class="text-center relative z-10">
+                <img class="w-full h-full" src="/images/zalo-icon.png" alt="zalo">
+            </a>
+        </div>
     </div>
 </template>
 

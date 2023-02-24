@@ -128,14 +128,6 @@
                                             wealthmanagement.qltc@gmail.com
                                         </span>
                                     </li>
-                                    <li class="flex items-center gap-3">
-                                        <span class="w-12 h-12 text-center relative z-10">
-                                            <img src="/images/zalo-icon.png" alt="">
-                                        </span>
-                                        <a href="https://zalo.me/0588888548" class="flex-1 font-medium !text-lg !text-white/70">
-                                            Liên hệ Zalo
-                                        </a>
-                                    </li>
                                 </ul>
                             </div>
                         </div>
