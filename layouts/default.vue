@@ -14,16 +14,6 @@
                 <i class="fas fa-phone text-lg" />
             </span>
         </a>
-        <div ref="zaloWidget">
-            <div
-                class="zalo-chat-widget !right-4 sm:!right-8"
-                data-oaid="1823779553933075111"
-                data-welcome-message="Chào mừng bạn đến với Wealth Management, inbox ngay để được hỗ trợ"
-                data-autopopup="0"
-                data-width="350"
-                data-height="420"
-            />
-        </div>
     </div>
 </template>
 
@@ -50,57 +40,11 @@
             window.addEventListener('scroll', this.handleScroll, true);
         },
 
-        mounted() {
-            setTimeout(() => {
-                this.appendScript(this.initWidget);
-            }, 300);
-        },
-
         beforeDestroy() {
             window.removeEventListener('scroll', this.handleScroll, true);
         },
 
         methods: {
-            canUseDOM() {
-                return typeof window !== 'undefined' && window.document && window.document.createElement;
-            },
-            getScriptElement() {
-                return document.getElementById(SCRIPT_ID);
-            },
-            updateOnloadListener(onload) {
-                const script = this.getScriptElement();
-                const oldOnload = script.onload;
-                // eslint-disable-next-line no-return-assign
-                return script.onload = () => {
-                    oldOnload();
-                    onload();
-                };
-            },
-            scriptExists() {
-                return this.getScriptElement() !== null;
-            },
-            appendScript(onload) {
-                if (!this.canUseDOM()) {
-                    onload();
-                    return;
-                }
-
-                if (this.scriptExists()) {
-                    if (typeof zaloWidget === 'undefined') {
-                        this.updateOnloadListener(onload);
-                        return;
-                    }
-                    onload();
-                    return;
-                }
-                const script = document.createElement('script');
-                script.id = SCRIPT_ID;
-                script.type = 'text/javascript';
-                script.async = true;
-                script.src = 'https://sp.zalo.me/plugins/sdk.js';
-                script.onload = onload;
-                this.$refs.zaloWidget.appendChild(script);
-            },
         },
     };
 </script>
