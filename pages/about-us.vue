@@ -30,7 +30,7 @@
                             <div>
                                 <p class="text-lg">
                                     Wealth Management là công ty tư vấn, đầu tư và quản lý tài chính cá nhân chuyên nghiệp hoạt
-                                    động hàng đầu tại Châu Á và được thành lập vào năm 2008. Có trụ sở chính tại Singapore.
+                                    động hàng đầu tại Châu Á và được thành lập vào năm 2008. Có trụ sở chính tại Singapore ( 600 North Bridge Rd, Parkview Square, Singapore 188778 ).
                                     Nó chủ yếu hoạt động các dịch vụ tài chính cá nhân, dịch vụ ngân hàng tư nhân, dịch vụ ngân
                                     hàng thương mại và doanh nghiệp, dịch vụ ngân hàng đầu tư, tài chính doanh nghiệp và thị trường vốn.
                                     Kinh doanh, dịch vụ vốn ngoại hối, dịch vụ môi giới tương lai, quản lý tài sản, quản lý vốn
