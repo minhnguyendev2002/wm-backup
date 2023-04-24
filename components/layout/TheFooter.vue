@@ -12,7 +12,10 @@
                                     Gọi cho chúng tôi
                                 </span>
                                 <a class="!text-white text-3xl underline" href="tel:0588888548">
-                                    058.8888.548
+                                    Cơ quan: 058.8888.548
+                                </a>
+                                <a class="!text-white text-3xl underline" href="tel:0904588802">
+                                    Di Động: 0904.588.802
                                 </a>
                                 <div class="font-medium text-xl text-white mt-3">
                                     Chăm sóc khách hàng 24/7
@@ -119,7 +122,16 @@
                                             class="flex-1 font-medium !text-lg !text-white/70 hover:!text-prim-100 transition-all duration-500"
                                             href="tel:0588888548"
                                         >
-                                            058.8888.548
+                                            Cơ quan: 058.8888.548
+                                        </a>
+                                    </li>
+                                    <li class="flex items-center gap-3">
+                                        <span class="w-12 h-12 leading-[48px] block !text-white !bg-[#1b1e83] text-center relative z-10 rounded-full"><i class="fas fa-phone" /></span>
+                                        <a
+                                            class="flex-1 font-medium !text-lg !text-white/70 hover:!text-prim-100 transition-all duration-500"
+                                            href="tel:0904588802"
+                                        >
+                                            Di Động: 0904.588.802
                                         </a>
                                     </li>
                                     <li class="flex items-center gap-3">
