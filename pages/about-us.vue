@@ -88,7 +88,7 @@
                             khách hàng luôn thôi thúc chúng tôi tiến bước, tiếp tục tìm kiếm những cơ hội đầu tư sinh lời cao
                             đáp ứng sự kỳ vọng, tin tưởng ở khách hàng. Wealth Management khao khát tiên phong trở thành tổ chức
                             quản lý tài sản tư vấn đầu tư uy tín, hàng đầu tại Việt Nam. Có văn phòng đại diện tại Việt Nam là
-                            CÔNG TY TNHH THƯƠNG MẠI VÀ ĐẦU TƯ TÀI CHÍNH GIA BẢO MST: 2500653515.
+                            CÔNG TY CỔ PHẦN ĐẦU TƯ TÀI CHÍNH FINDEX MST: 0102278854
                         </p>
                     </div>
                 </div>
