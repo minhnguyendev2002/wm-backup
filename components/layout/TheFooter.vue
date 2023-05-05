@@ -11,11 +11,11 @@
                                 <span class="text-xl text-white/70 block">
                                     Gọi cho chúng tôi
                                 </span>
-                                <a class="!text-white text-3xl underline" href="tel:0589888802">
+                                <!-- <a class="!text-white text-3xl underline" href="tel:0589888802">
                                     Cơ quan: 0589 8888 02
-                                </a>
+                                </a> -->
                                 <a class="!text-white text-3xl underline" href="tel:0904588802">
-                                    Di động: 0904 5888 02
+                                    0904 5888 02
                                 </a>
                                 <div class="font-medium text-xl text-white mt-3">
                                     Chăm sóc khách hàng 24/7
@@ -116,7 +116,7 @@
                             </span>
                             <div>
                                 <ul class="flex flex-col gap-3">
-                                    <li class="flex items-center gap-3">
+                                    <!-- <li class="flex items-center gap-3">
                                         <span class="w-12 h-12 leading-[48px] block !text-white !bg-[#1b1e83] text-center relative z-10 rounded-full"><i class="fas fa-phone" /></span>
                                         <a
                                             class="flex-1 font-medium !text-lg !text-white/70 hover:!text-prim-100 transition-all duration-500"
@@ -124,14 +124,14 @@
                                         >
                                             Cơ quan: 0589 8888 02
                                         </a>
-                                    </li>
+                                    </li> -->
                                     <li class="flex items-center gap-3">
                                         <span class="w-12 h-12 leading-[48px] block !text-white !bg-[#1b1e83] text-center relative z-10 rounded-full"><i class="fas fa-phone" /></span>
                                         <a
                                             class="flex-1 font-medium !text-lg !text-white/70 hover:!text-prim-100 transition-all duration-500"
                                             href="tel:0904588802"
                                         >
-                                            Di động: 0904 5888 02
+                                            0904 5888 02
                                         </a>
                                     </li>
                                     <li class="flex items-center gap-3">
