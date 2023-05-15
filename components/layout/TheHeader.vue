@@ -35,7 +35,7 @@
             </div>
             <div class="ml-auto flex gap-3">
                 <div class="gap-3 hidden sm:flex">
-                    <a href="https://www.vncrmwmfx.com/pc/user/login"> 
+                    <a href="https://www.vncrmwmfx.com/pc/user/login">
                         <a-button type="primary" class="!bg-prim-100">
                             Đăng nhập
                         </a-button>
@@ -91,12 +91,12 @@
                 </template>
             </a-menu>
             <div class="gap-3 sm:hidden flex justify-between mt-10">
-                <a class="block w-full text-center" href="https://www.vncrmrosy.com/pc/user/login">
+                <a class="block w-full text-center" href="https://www.vncrmwmfx.com/pc/user/login">
                     <a-button type="primary" class="!bg-prim-100">
                         Đăng nhập
                     </a-button>
                 </a>
-                <a class="block w-full text-center" href="https://www.vncrmrosy.com/pc/user/regist">
+                <a class="block w-full text-center" href="https://www.vncrmwmfx.com/pc/user/regist">
                     <a-button type="primary" class="!bg-prim-100">
                         Đăng ký ngay
                     </a-button>
