@@ -87,8 +87,7 @@
                             mức độ chấp nhận rủi ro hay khẩu vị đầu tư mà khách hàng hướng tới. Những thành tựu đã đạt được cho
                             khách hàng luôn thôi thúc chúng tôi tiến bước, tiếp tục tìm kiếm những cơ hội đầu tư sinh lời cao
                             đáp ứng sự kỳ vọng, tin tưởng ở khách hàng. Wealth Management khao khát tiên phong trở thành tổ chức
-                            quản lý tài sản tư vấn đầu tư uy tín, hàng đầu tại Việt Nam. Có văn phòng đại diện tại Việt Nam là
-                            CÔNG TY CỔ PHẦN ĐẦU TƯ TÀI CHÍNH FINDEX MST: 0102278854
+                            quản lý tài sản tư vấn đầu tư uy tín, hàng đầu tại Việt Nam.
                         </p>
                     </div>
                 </div>
